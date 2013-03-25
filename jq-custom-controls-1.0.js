@@ -106,7 +106,7 @@
             The first event will call the newElementChangeState function, while the second calls the elementChangeState function directly.
             "this" object is passed as data and stored in a variable for usage.
         */
-        this.$newElement.on("click touchstart", this, function(e) {
+        this.$newElement.on("click", this, function(e) {
             var thisPlugin = e.data;
             thisPlugin.newElementChangeState();
         });
