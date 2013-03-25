@@ -2,6 +2,7 @@ jqCustomControls
 ================
 
 jQuery Custom Controls - Custom checkbox and radio elements plugin
+Page & demo: http://danciu.github.com/jqCustomControls
 
 Usage (basic)
 =============
@@ -32,3 +33,8 @@ Other notes
 ===========
 
 The plugin itself does not handle the styling of new elements. Download the whole plugin package: you'll find a basic CSS theme in there (and a variation with checkmark and radio images) to get you started.
+
+Updates
+=======
+
+None at the moment
