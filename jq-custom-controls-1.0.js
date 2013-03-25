@@ -41,15 +41,13 @@
         /*
             If the element jqCustomControls is applied on is of correct type (checkbox or radio element),
             find out whether it has an ID or/and class(es), then set an ID variable if there is an ID on the element,
-            find the element's label and then initialize the plugin.
+            and then initialize the plugin.
         */
         if (this.elementOfCorrectType) {
             this.elementHasID = this.$element.attr("id").length;
             this.elementHasClass = this.$element.attr("class").length;
             if (this.elementHasID) {
                 this.elementID = this.$element.attr("id");
-
-                this.$elementLabel = this.$element.parent().find("label[for='" + this.elementID + "']");
             }
             this.init();
         }
