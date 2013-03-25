@@ -3,27 +3,32 @@ jqCustomControls
 
 jQuery Custom Controls - Custom checkbox and radio elements plugin
 
-<h3>Usage (basic)</h3>
-<pre>
+Usage (basic)
+=============
+
 $(function() {
-$(element).jqCustomControls();
+	$(element).jqCustomControls();
 });
-</pre>
-<h3>Usage (with some custom options)</h3>
-<pre>
+
+Usage (with some custom options)
+================================
+
 $(function() {
-$(element).jqCustomControls({
-"preserveMargins"   : true,
-"additionalClasses" : "class1 class2 class3"
+	$(element).jqCustomControls({
+		"preserveMargins"   : true,
+		"additionalClasses" : "class1 class2 class3"
+	});
 });
-});
-</pre>
-<h3>Plugin options and defaults</h3>
-<p>- preserveMargins   - preserve any margins the original element may have had - default is false</p>
-<p>- preserveClasses   - keep class(es) of original element - default is false;</p>
-<p>- newPreservedId    - set an ID on the new element, composed from the "jqcc-" keyword and the old element's ID - default is true;</p>
-<p>- additionalClasses - list of additional classes (or a single class for that matter) to set on the new element - default is empty.</p>
-<h3>Other notes</h3>
-<p>
-	The plugin itself does not handle the styling of new elements. Download the whole plugin package: you'll find a basic CSS theme in there (and a variation with checkmark and radio images) to get you started.
-</p>
+
+Plugin options and defaults
+===========================
+
+- preserveMargins   - preserve any margins the original element may have had - default is false;
+- preserveClasses   - keep class(es) of original element - default is false;
+- newPreservedId    - set an ID on the new element, composed from the "jqcc-" keyword and the old element's ID - default is true;
+- additionalClasses - list of additional classes (or a single class for that matter) to set on the new element - default is empty.
+
+Other notes
+===========
+
+The plugin itself does not handle the styling of new elements. Download the whole plugin package: you'll find a basic CSS theme in there (and a variation with checkmark and radio images) to get you started.
