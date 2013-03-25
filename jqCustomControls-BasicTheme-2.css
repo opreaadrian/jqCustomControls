@@ -1,0 +1,11 @@
+/* jQuery Custom Controls 1.0 Basic theme CSS file - with no images at all */
+.jqcc-anchor,label{cursor:pointer;outline:none;}
+.jqcc-anchor{display:inline-block;background:#ffffff;background:-moz-linear-gradient(top,#ffffff 0%,#e5e5e5 100%);background:-webkit-gradient(linear,left top,left bottom,color-stop(0%,#ffffff),color-stop(100%,#e5e5e5));background:-webkit-linear-gradient(top,#ffffff 0%,#e5e5e5 100%);background:-o-linear-gradient(top,#ffffff 0%,#e5e5e5 100%);background:-ms-linear-gradient(top,#ffffff 0%,#e5e5e5 100%);background:linear-gradient(to bottom,#ffffff 0%,#e5e5e5 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff',endColorstr='#e5e5e5',GradientType=0);border:1px solid #ccc;width:9px;height:9px;padding:2px;}
+.jqcc-anchor:hover{background:#e5e5e5;background:-moz-linear-gradient(top,#e5e5e5 0%,#ffffff 100%);background:-webkit-gradient(linear,left top,left bottom,color-stop(0%,#e5e5e5),color-stop(100%,#ffffff));background:-webkit-linear-gradient(top,#e5e5e5 0%,#ffffff 100%);background:-o-linear-gradient(top,#e5e5e5 0%,#ffffff 100%);background:-ms-linear-gradient(top,#e5e5e5 0%,#ffffff 100%);background:linear-gradient(to bottom,#e5e5e5 0%,#ffffff 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#e5e5e5',endColorstr='#ffffff',GradientType=0);}
+.jqcc-anchor:active{background:#e5e5e5;background:-moz-linear-gradient(top,#e5e5e5 0%,#bfbfbf 100%);background:-webkit-gradient(linear,left top,left bottom,color-stop(0%,#e5e5e5),color-stop(100%,#bfbfbf));background:-webkit-linear-gradient(top,#e5e5e5 0%,#bfbfbf 100%);background:-o-linear-gradient(top,#e5e5e5 0%,#bfbfbf 100%);background:-ms-linear-gradient(top,#e5e5e5 0%,#bfbfbf 100%);background:linear-gradient(to bottom,#e5e5e5 0%,#bfbfbf 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#e5e5e5',endColorstr='#bfbfbf',GradientType=0);}
+.jqcc-anchor span{display:block;width:100%;height:100%;}
+.jqcc-anchor.checked span{background:#01a185;}
+.jqcc-anchor.checkbox{-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px;}
+.jqcc-anchor.checkbox span{-webkit-border-radius:2px;-moz-border-radius:2px;border-radius:2px;}
+.jqcc-anchor.radio{-webkit-border-radius:10px;-moz-border-radius:10px;border-radius:10px;}
+.jqcc-anchor.radio span{-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;}
